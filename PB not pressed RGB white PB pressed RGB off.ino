@@ -14,12 +14,12 @@ void loop() {
   int BinValue = digitalRead(PushButton);   //read the pushbutton value into a variable
   Serial.print(" BinValue = " ); // print out the line "BinValue = "
   Serial.println(BinValue);  //print out the value of the pushbutton
-  if (BinValue == 1)
-  { digitalWrite(PIN_RED,   1);
+  if (BinValue == 1) // Condition for the if fuction 
+  { digitalWrite(PIN_RED,   1); // the condition is true the RGB turn White 
   digitalWrite(PIN_GREEN, 1);
   digitalWrite(PIN_BLUE,  1);
   }
-  else{
+  else{ // if the condition is not true the RGB turn black 
   digitalWrite(PIN_RED,   0);
   digitalWrite(PIN_GREEN, 0);
   digitalWrite(PIN_BLUE,  0);  
