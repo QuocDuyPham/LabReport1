@@ -1,7 +1,7 @@
-int PushButton = 2; 
-const int PIN_RED   = 5;
-const int PIN_GREEN = 6;
-const int PIN_BLUE  = 7;
+int PushButton = 13; 
+const int PIN_RED   = 10;
+const int PIN_GREEN = 11;
+const int PIN_BLUE  = 12;
 void setup() {
   Serial.begin(9600);   //start serial connection
   pinMode(PushButton, INPUT_PULLUP);  //configure pin 2 as an input and enable the internal pull-up resistor
