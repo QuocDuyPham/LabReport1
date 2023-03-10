@@ -1,4 +1,4 @@
-int PushButton = 2; // initialize digital pin 2 as an Input
+int PushButton = 7; // initialize digital pin 2 as an Input
 int LED = 13; // initialize digital pin 13 as the LED.
 void setup() {
   Serial.begin(9600);   //start serial connection
