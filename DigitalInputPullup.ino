@@ -1,8 +1,8 @@
-int PushButton = 7; // initialize digital pin 2 as an Input
+int PushButton = 7; // initialize digital pin 7 as an Input
 int LED = 13; // initialize digital pin 13 as the LED.
 void setup() {
   Serial.begin(9600);   //start serial connection
-  pinMode(PushButton, INPUT_PULLUP);  //configure pin 2 as an input and enable the internal pull-up resistor
+  pinMode(PushButton, INPUT_PULLUP);  //configure pin 7 as an input and enable the internal pull-up resistor
   pinMode(LED, OUTPUT); // /configure LED as an output
 }
 
